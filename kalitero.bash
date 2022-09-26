@@ -7,6 +7,9 @@ sudo apt update && sudo apt full-upgrade -y --fix-missing && sudo apt dist-upgra
 # Install Ghidra
 sudo apt install ghidra -y
 
+# Install TOR
+sudo apt install -y tor torbrowser-launcher
+
 # Make a new directory to download tools
 mkdir Tools
 cd Tools/
